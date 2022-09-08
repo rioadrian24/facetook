@@ -118,7 +118,7 @@ $posts = mysqli_query($conn, "SELECT *, posts.created_at AS p_created_at FROM po
 
                     <div class="d-flex align-items-center justify-content-between">
                         <div class="d-flex align-items-center">
-                            <img src="../../assets/img/users/default.png" class="profile-picture-sm me-2">
+                            <img src="<?= base_url("assets/img/users/default.png") ?>" class="profile-picture-sm me-2">
                             <div class="flex-column">
                                 <h6 class="mb-0">Ucup</h6>
                             </div>
@@ -130,7 +130,7 @@ $posts = mysqli_query($conn, "SELECT *, posts.created_at AS p_created_at FROM po
                     <hr />
                     <div class="d-flex align-items-center justify-content-between">
                         <div class="d-flex align-items-center">
-                            <img src="../../assets/img/users/default.png" class="profile-picture-sm me-2">
+                            <img src="<?= base_url("assets/img/users/default.png") ?>" class="profile-picture-sm me-2">
                             <div class="flex-column">
                                 <h6 class="mb-0">Samsudin</h6>
                             </div>
@@ -142,7 +142,7 @@ $posts = mysqli_query($conn, "SELECT *, posts.created_at AS p_created_at FROM po
                     <hr />
                     <div class="d-flex align-items-center justify-content-between">
                         <div class="d-flex align-items-center">
-                            <img src="../../assets/img/users/default.png" class="profile-picture-sm me-2">
+                            <img src="<?= base_url("assets/img/users/default.png") ?>" class="profile-picture-sm me-2">
                             <div class="flex-column">
                                 <h6 class="mb-0">Ferdy S</h6>
                             </div>
