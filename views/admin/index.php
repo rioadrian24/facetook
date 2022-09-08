@@ -118,43 +118,37 @@ $posts = mysqli_query($conn, "SELECT *, posts.created_at AS p_created_at FROM po
 
                     <div class="d-flex align-items-center justify-content-between">
                         <div class="d-flex align-items-center">
-                            <img src="<?= profile_picture($post['picture']) ?>" class="profile-picture-sm me-2">
+                            <img src="../../assets/img/users/default.png" class="profile-picture-sm me-2">
                             <div class="flex-column">
                                 <h6 class="mb-0">Ucup</h6>
                             </div>
                         </div>
                         <div>
-                            <?php if ($post['id_user'] == user()->id_user) : ?>
-                                <a href="index.php?page=post_delete&id=<?= $post['id_post'] ?>" class="btn btn-primary btn-sm"><i class="bi bi-plus"></i> add friends</a>
-                            <?php endif ?>
+                            <a href="#" class="btn btn-primary btn-sm"><i class="bi bi-plus"></i> add friends</a>
                         </div>
                     </div>
                     <hr />
                     <div class="d-flex align-items-center justify-content-between">
                         <div class="d-flex align-items-center">
-                            <img src="<?= profile_picture($post['picture']) ?>" class="profile-picture-sm me-2">
+                            <img src="../../assets/img/users/default.png" class="profile-picture-sm me-2">
                             <div class="flex-column">
                                 <h6 class="mb-0">Samsudin</h6>
                             </div>
                         </div>
                         <div>
-                            <?php if ($post['id_user'] == user()->id_user) : ?>
-                                <a href="index.php?page=post_delete&id=<?= $post['id_post'] ?>" class="btn btn-primary btn-sm"><i class="bi bi-plus"></i> add friends</a>
-                            <?php endif ?>
+                            <a href="#" class="btn btn-primary btn-sm"><i class="bi bi-plus"></i> add friends</a>
                         </div>
                     </div>
                     <hr />
                     <div class="d-flex align-items-center justify-content-between">
                         <div class="d-flex align-items-center">
-                            <img src="<?= profile_picture($post['picture']) ?>" class="profile-picture-sm me-2">
+                            <img src="../../assets/img/users/default.png" class="profile-picture-sm me-2">
                             <div class="flex-column">
                                 <h6 class="mb-0">Ferdy S</h6>
                             </div>
                         </div>
                         <div>
-                            <?php if ($post['id_user'] == user()->id_user) : ?>
-                                <a href="index.php?page=post_delete&id=<?= $post['id_post'] ?>" class="btn btn-primary btn-sm"><i class="bi bi-plus"></i> add friends</a>
-                            <?php endif ?>
+                            <a href="#" class="btn btn-primary btn-sm"><i class="bi bi-plus"></i> add friends</a>
                         </div>
                     </div>
                 </div>

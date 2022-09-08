@@ -18,7 +18,7 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav ms-auto mb-2 mb-lg-0 fw-500">
-                    <?php if (!isset($_COOKIE['login'])) : ?>
+                    <?php if (!isset($_SESSION['login'])) : ?>
                         <li class="nav-item">
                             <a class="nav-link" href="index.php"><i class="bi bi-lock"></i> Login</a>
                         </li>
